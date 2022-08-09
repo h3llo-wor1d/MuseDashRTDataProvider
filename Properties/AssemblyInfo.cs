@@ -1,4 +1,4 @@
-﻿using FC_AP;
+﻿using MuseDashRTDataProvider;
 using MelonLoader;
 using System.Reflection;
 using System.Runtime.InteropServices;
@@ -35,5 +35,5 @@ using System.Runtime.InteropServices;
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion(MelonBuildInfo.Version)]
 [assembly: AssemblyFileVersion(MelonBuildInfo.Version)]
-[assembly: MelonInfo(typeof(FC_AP.Main), MelonBuildInfo.Name, MelonBuildInfo.Version, MelonBuildInfo.Author)]
+[assembly: MelonInfo(typeof(MuseDashRTDataProvider.Main), MelonBuildInfo.Name, MelonBuildInfo.Version, MelonBuildInfo.Author)]
 [assembly: MelonGame("PeroPeroGames", "MuseDash")]
